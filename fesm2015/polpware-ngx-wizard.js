@@ -97,7 +97,7 @@ class WizardAbstractComponent {
     }
     nextStep() {
         // Guard
-        if (!this.disableNextStep) {
+        if (this.disableNextStep) {
             return;
         }
         if (this.forwardNavigator.nextStep) {

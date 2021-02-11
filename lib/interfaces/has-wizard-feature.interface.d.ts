@@ -16,7 +16,6 @@ applied to the current UI.
 The "forwardDimIndice" property denotes the position for the configuration
 applied to the UI for the next step. This should be updated if a choice is changed.
 
-
 First step:
   [0]
   

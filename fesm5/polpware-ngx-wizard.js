@@ -127,7 +127,7 @@ var WizardAbstractComponent = /** @class */ (function () {
     };
     WizardAbstractComponent.prototype.nextStep = function () {
         // Guard
-        if (!this.disableNextStep) {
+        if (this.disableNextStep) {
             return;
         }
         if (this.forwardNavigator.nextStep) {
