@@ -17,4 +17,5 @@ export declare abstract class WizardAbstractComponent implements IHasWizardFeatu
     protected nextStepInternal(): void;
     nextStep(): void;
     prevStep(): void;
+    protected prevStepInternal(): void;
 }

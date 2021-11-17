@@ -108,6 +108,14 @@ class WizardAbstractComponent {
         }
     }
     prevStep() {
+        if (this.navigator.prevStep) {
+            this.navigator.prevStep();
+        }
+        else {
+            this.nextStepInternal();
+        }
+    }
+    prevStepInternal() {
         if (this.stepIndex > 0) {
             // Recover our options 
             this.forwardDimIndice = [...this.dimIndice];

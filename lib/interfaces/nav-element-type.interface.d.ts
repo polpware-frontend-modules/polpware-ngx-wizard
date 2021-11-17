@@ -4,4 +4,5 @@ export interface INavElementType {
     hasNextGuard: boolean;
     visible: boolean;
     nextStep?: any;
+    prevStep?: any;
 }

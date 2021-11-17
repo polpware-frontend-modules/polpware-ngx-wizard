@@ -138,6 +138,14 @@ var WizardAbstractComponent = /** @class */ (function () {
         }
     };
     WizardAbstractComponent.prototype.prevStep = function () {
+        if (this.navigator.prevStep) {
+            this.navigator.prevStep();
+        }
+        else {
+            this.nextStepInternal();
+        }
+    };
+    WizardAbstractComponent.prototype.prevStepInternal = function () {
         var _a, _b;
         if (this.stepIndex > 0) {
             // Recover our options 
