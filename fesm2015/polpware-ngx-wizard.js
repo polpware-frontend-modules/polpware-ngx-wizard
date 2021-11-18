@@ -108,11 +108,11 @@ class WizardAbstractComponent {
         }
     }
     prevStep() {
-        if (this.navigator.prevStep) {
-            this.navigator.prevStep();
+        if (this.forwardNavigator.prevStep) {
+            this.forwardNavigator.prevStep();
         }
         else {
-            this.nextStepInternal();
+            this.prevStepInternal();
         }
     }
     prevStepInternal() {

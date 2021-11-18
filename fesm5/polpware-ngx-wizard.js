@@ -138,11 +138,11 @@ var WizardAbstractComponent = /** @class */ (function () {
         }
     };
     WizardAbstractComponent.prototype.prevStep = function () {
-        if (this.navigator.prevStep) {
-            this.navigator.prevStep();
+        if (this.forwardNavigator.prevStep) {
+            this.forwardNavigator.prevStep();
         }
         else {
-            this.nextStepInternal();
+            this.prevStepInternal();
         }
     };
     WizardAbstractComponent.prototype.prevStepInternal = function () {
