@@ -19,3 +19,4 @@ export declare abstract class WizardAbstractComponent implements IHasWizardFeatu
     prevStep(): void;
     protected prevStepInternal(): void;
 }
+//# sourceMappingURL=wizard-abstract.component.d.ts.map

@@ -10,3 +10,4 @@ export declare class SparseMultiArrayImpl<T> {
     getElement(...numbers: number[]): T;
     setElement(val: T, ...numbers: number[]): void;
 }
+//# sourceMappingURL=sparse-multi-array.d.ts.map

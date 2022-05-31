@@ -47,3 +47,4 @@ export interface IHasWizardFeature {
     nextStep(): void;
     prevStep(): void;
 }
+//# sourceMappingURL=has-wizard-feature.interface.d.ts.map

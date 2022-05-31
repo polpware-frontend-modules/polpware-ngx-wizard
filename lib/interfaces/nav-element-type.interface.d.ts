@@ -6,3 +6,4 @@ export interface INavElementType {
     nextStep?: any;
     prevStep?: any;
 }
+//# sourceMappingURL=nav-element-type.interface.d.ts.map
