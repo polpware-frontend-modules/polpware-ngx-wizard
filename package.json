@@ -1,9 +1,9 @@
 {
   "name": "@polpware/ngx-wizard",
-  "version": "13.1.0",
+  "version": "14.0.0",
   "peerDependencies": {
-    "@angular/common": "^13.0.0",
-    "@angular/core": "^13.0.0"
+    "@angular/common": "^14.0.0",
+    "@angular/core": "^14.0.0"
   },
   "dependencies": {
     "tslib": "^2.0.0"
@@ -13,13 +13,13 @@
   "esm2020": "esm2020/polpware-ngx-wizard.mjs",
   "fesm2020": "fesm2020/polpware-ngx-wizard.mjs",
   "fesm2015": "fesm2015/polpware-ngx-wizard.mjs",
-  "typings": "polpware-ngx-wizard.d.ts",
+  "typings": "index.d.ts",
   "exports": {
     "./package.json": {
       "default": "./package.json"
     },
     ".": {
-      "types": "./polpware-ngx-wizard.d.ts",
+      "types": "./index.d.ts",
       "esm2020": "./esm2020/polpware-ngx-wizard.mjs",
       "es2020": "./fesm2020/polpware-ngx-wizard.mjs",
       "es2015": "./fesm2015/polpware-ngx-wizard.mjs",
