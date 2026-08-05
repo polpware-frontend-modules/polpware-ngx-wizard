@@ -1,9 +1,0 @@
-export interface INavElementType {
-    hasPrevStep: boolean;
-    hasNextStep: boolean;
-    hasNextGuard: boolean;
-    visible: boolean;
-    nextStep?: any;
-    prevStep?: any;
-}
-//# sourceMappingURL=nav-element-type.interface.d.ts.map
